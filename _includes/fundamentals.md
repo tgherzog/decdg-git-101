@@ -44,7 +44,8 @@ Same concept as "track changes" in Word, but in a much larger sense
 
 .clear-block[
 .col-left[
-With .red[**track changes**] everyone shares the same file (tough to merge).
+With .red[**track changes**] merging is difficult; you either share the same file or
+"pass it around."
 
 With .green[**git**] everyone works on their own copy and merges changes at will.
 ]
