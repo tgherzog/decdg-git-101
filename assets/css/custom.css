@@ -10,3 +10,20 @@ h1, h2, h3 {
 }
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.quart-size img {
+  width: 50%;
+}
+
+.red { color: red; }
+.green { color: green; }
+.blue { color: blue; }
+
+div.col-left { width: 49%; float: left }
+div.col-right { width: 49%; float: right }

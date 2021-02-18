@@ -1,8 +1,22 @@
 ---
 layout: remark
 title: Basic Git
+slides:   # declare slides in the order you want them. The layout will add these
+  - fundamentals.md
+  - github.md
+  - workflow.md
+  - management.md
+  - teams.md
+  - tips.md
+
 ---
 class: center, middle
+
+[git-logo]: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
+
+.quart-size[
+![git logo][git-logo]
+]
 
 # Basic Git #
 
@@ -10,12 +24,18 @@ class: center, middle
 
 # Overview of this course #
 
+.col-left[
 * Fundamentals of version control and git
 * Differences between git and GitHub
 * Git workflow
 * Managing changes
 * Working across teams
 * Tips and best practices
+]
+
+.col-right.quart-size[
+![git logo][git-logo]
+]
 
 ???
 
@@ -32,50 +52,4 @@ integrated with other tools. This course shows how to use git in RStudio.
 But we'll also show the command line equivalents for every feature.
 Other tools will have different ways to accomplish most of the things
 you'll learn here.
-
-
----
-
-# Fundamentals of version control and git
-
----
-
-# Differences between git and GitHub
-
----
-
-# Git workflow
-
-* Setup (what's the best way to set username in RStudio?)
-* Initiating a repository
-* Adding files
-* Commiting files
-* Staging changes
-
----
-
-# Managing changes
-
-* Viewing the commit log
-* Seeing differences
-* Reverting to a previous version
-* Tagging
-* Branching
-
----
-
-# Working across teams
-
-* Getting latest branch (fetch and pull)
-* Merging changes
-* Pushing your changes to the master repository
-
----
-
-# Tips and best practices
-
-* Helpful configuration options
-* Provide meaningful commit messages
-* Don't commit "working" files that others don't need
-* Use .gitignore
 
