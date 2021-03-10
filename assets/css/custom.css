@@ -17,7 +17,7 @@ img {
     margin: 0 auto;
 }
 
-.quart-size img {
+.half-size img {
   width: 50%;
 }
 
@@ -27,3 +27,9 @@ img {
 
 div.col-left { width: 49%; float: left }
 div.col-right { width: 49%; float: right }
+
+div.col-left23 { width: 66%; float: left }
+div.col-right13 { width: 33%; float: right }
+
+div.col-left13 { width: 33%; float: left }
+div.col-right23 { width: 66%; float: right }

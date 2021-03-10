@@ -3,7 +3,6 @@ layout: remark
 title: Basic Git
 slides:   # declare slides in the order you want them. The layout will add these
   - fundamentals.md
-  - github.md
   - workflow.md
   - management.md
   - teams.md
@@ -14,7 +13,7 @@ class: center, middle
 
 [git-logo]: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
 
-.quart-size[
+.half-size[
 ![git logo][git-logo]
 ]
 
