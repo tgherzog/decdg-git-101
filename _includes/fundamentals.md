@@ -21,13 +21,33 @@
 Same concept as "track changes" in Word, but in a much larger sense
 ]
 
+
 ???
 
 * Version control is a tool that keep track of changes you make to a project as you make them
 * Over time you end up with a complete record of all changes made to a project, when and by
   whom, and you can "revert" to any previous point in the project history.
 * You can think of sort of like "track changes" in Word, or "suggestion" mode in Google
-  Docs, except much more extensive
+  Docs, except much more extensive.
+
+---
+class: phasing
+
+# When would you use version control? 
+
+.col-left[
+Many different use cases: software projects, data management, websites,
+research papers, presentations.
+
+* Data management: [JHU](https://github.com/CSSEGISandData/COVID-19) or [Washington Post](https://github.com/washingtonpost/data-police-shootings)
+* Dashboard: [Open SDG](https://sustainabledevelopment-rwanda.github.io/)
+* Research: [ESG Gaps](https://worldbank.github.io/ESG_gaps_research/)
+* Presentations: [this one](http://tgherzog.github.io/decdg-git-101)
+]
+???
+
+* Version control is suitable to many different kinds of projects. For example, software projects
+  where you need to track changes to source code across a bunch of different projects.
 
 
 ---
