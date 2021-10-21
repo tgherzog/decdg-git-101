@@ -33,3 +33,12 @@ div.col-right13 { width: 33%; float: right }
 
 div.col-left13 { width: 33%; float: left }
 div.col-right23 { width: 66%; float: right }
+
+/* classes for animating blocks */
+div.phasing .phase1, div.phasing .phase2, div.phasing .phase3, div.phasing .phase4 {
+  display: none;
+}
+
+div.phasing.phase1 .phase1, div.phasing.phase2 .phase2, div.phasing.phase3 .phase3, div.phasing.phase4 .phase4 {
+  display: block;
+}

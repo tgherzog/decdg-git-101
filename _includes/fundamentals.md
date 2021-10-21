@@ -1,6 +1,7 @@
 
 ---
 
+
 # Fundamentals of version control and git
 
 ### Q: What is "version control?" ###
@@ -42,6 +43,7 @@ research papers, presentations.
 * Data management: [JHU](https://github.com/CSSEGISandData/COVID-19) or [Washington Post](https://github.com/washingtonpost/data-police-shootings)
 * Dashboards: [Open SDG](https://sustainabledevelopment-rwanda.github.io/)
 * Websites: [Open Data Toolkit](http://opendatatoolkit.worldbank.org) or [ESG](https://esgdata.worldbank.org)
+* Tool development: [Statistical Performance Indicators](https://github.com/worldbank/spi)
 * Research: [ESG Gaps](https://worldbank.github.io/ESG_gaps_research/)
 * Presentations: [this one](http://tgherzog.github.io/decdg-git-101)
 ]
@@ -103,10 +105,10 @@ toolkit tim@opendatatoolkit.worldbank.org:/usr/local/share/git/wbg-ogdtoolkit.gi
 ???
 
 * The other big difference is that with the "track changes" approach the whole team
-  typically works on the same document simultenously, like a shared Google document,
+  typically works on the same document simultenously, like a shared Google or Teams document,
   or even a file that you pass around via email.
 * If you've ever tried to "merge" changes from even two different versions of the
-  same file, you know this is very hard.
+  same file, you know this can be very hard.
 * With Git you **always** work on a **local** copy of the repo, and "push" your changes to a master
   repo.
 * You can even have more than one "master repository." Here are the settings for the git
@@ -163,6 +165,11 @@ Work happens in independent, parallel "branches" which "merge" when needed.
 
 * GitHub includes extra features (website hosting, project management, wiki, issue tracking, etc)
 
+--
+
+* .red[**TFS**] is an Azure-based platform which provides many Github-like features,
+  suitable for internal Bank use
+
 ???
 
 * **git** is software installed on your computer
@@ -171,3 +178,8 @@ Work happens in independent, parallel "branches" which "merge" when needed.
   are interchangeable. In this course we use the git commands built into R Studio
 
 * **GitHub** is a website for hosting shared repositories
+
+* **TFS** is a Microsoft Azure, cloud-based platform that works on the same principles as
+  Github and provides some of the same features. The big difference between TFS and Github
+  for us is that TFS is provided through ITS, is available only to Bank staff (not the public)
+  and can therefore be used for "official use."
