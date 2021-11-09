@@ -6,6 +6,14 @@
 
 ### Q: What is "version control?" ###
 
+???
+
+* Version control is a tool that keep track of changes you make to a project as you make them
+* Over time you end up with a complete record of all changes made to a project, when and by
+  whom, and you can "revert" to any previous point in the project history.
+* You can think of sort of like "track changes" in Word, or "suggestion" mode in Google
+  Docs, except much more extensive.
+
 --
 
 .col-left[
@@ -22,14 +30,6 @@
 Same concept as "track changes" in Word, but in a much larger sense
 ]
 
-
-???
-
-* Version control is a tool that keep track of changes you make to a project as you make them
-* Over time you end up with a complete record of all changes made to a project, when and by
-  whom, and you can "revert" to any previous point in the project history.
-* You can think of sort of like "track changes" in Word, or "suggestion" mode in Google
-  Docs, except much more extensive.
 
 ---
 class: phasing
@@ -137,16 +137,17 @@ Work happens in independent, parallel "branches" which "merge" when needed.
 
 ???
 
-* Here is a good example of how git users work together.
+* Here is a good example of how git users can work together.
 * This is the project history of an actual project. Each line is a "commit," or
-  set of discrete changes to one or more files. You can see the person who
+  set of discrete changes to one or more files. We'll talk more about commits in just a minute.
+  You can see the person who
   made the change and when they made it. You can select the commit to see details.
 * In this example the 3 authors are working on independent "branches" as shown
   by the colored lines on the left. Tim's branch is shown in green, Tony's in
   beige and Andres in purple.
-* Each author "pushes" their changes to a master repository whenever they want.
-* Each author "merges" changes from another author when they need to. These
-  are the points where the lines come together.
+* We'll get to branches more in a few minutes. For now, the point is that
+  git lets multiple team members collaborate while keeping their work streams separate until
+  they are ready to merge them, if ever.
 
 
 ---

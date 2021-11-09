@@ -149,11 +149,85 @@ count: false
 * You'll likely need to click the Refresh icon to get the file to appear
   in the Git pane.
 
+
 ---
 
-# Git workflow
+# Committing Files #
 
-* Commiting files
-* Staging changes
+.col-left[
+### Q: what is a "commit"? ###
+
+**A:** A commit is a **snapshot** of changes to a repository.
+]
+
+???
+
+* Adding new or modified files to a project doesn't save those changes
+  to the project. You need to "commit" those changes.
+* What is a commit? A commit is a *snapshot* of changes to a repository.
+  It could consist of changes to a single file or changes across multiple
+  files.
+* Often a commit will just involve a single file. However, if you've changed
+  several files and those changes only make sense when taken together, they
+  should be part of a *single* commit, not separate commits for each file.
+* Files must be *staged* before they can be committed. Staging is where
+  you select which files you want to commit and which files you don't
+  (you might want to commit these later, or not at all).
+* A good metaphor is packing a bunch of books together to send them to a friend.
+  First you select which books, go in the shipping box; that's staging.
+  Then you seal the box and bring it to the post office; that's a commit.
+
+--
+
+.col-right[
+![Git commit package illustration](assets/images/commit-packaging.png)
+]
+
+.col-left[
+### Q: what is "staging"? ###
+
+**A:** staging is selecting which new or changed files to include together
+in a single commit.
+]
+
+---
+
+# Committing Files #
+
+
+![Git commit RStudio](assets/images/commit-rstudio.png)
+
+
+???
+
+* In RStudio, the Staged column in the Git pane shows you which files
+  have been staged, and allows you to stage or unstage files.
+* So to commit a set of changes, first select the checkboxes next to the
+  files you want to stage, then click the Commit button.
+* If a file you want to commit isn't listed, you either need to add it
+  via the command line as discussed earlier, or there are no changes
+  to the file. Try clicking the Refresh button if you think the Git pane
+  might be out of date.
+
+---
+
+# Committing Files #
+
+.col-left13[
+* Click Commit to commit your staged files
+* Provide a **brief** commit message
+]
+
+.col-right23[
+![Git commit message](assets/images/commit-message.png)
+]
+
+???
+
+* When you click the Commit button you get a window to preview the commit
+  and type a message for the log.
+* The commit message should be very short, just a few words.
+* Remember that people can easily see your actual
+  changes no matter what you type, so there's no point in describing every detail.
 
 
