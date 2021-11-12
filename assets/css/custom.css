@@ -24,6 +24,8 @@ img {
 .red { color: red; }
 .green { color: green; }
 .blue { color: blue; }
+.orange { color: orange; }
+.purple { color: purple; }
 
 div.col-left { width: 49%; float: left }
 div.col-right { width: 49%; float: right }
