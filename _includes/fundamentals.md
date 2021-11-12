@@ -159,18 +159,6 @@ Work happens in independent, parallel "branches" which "merge" when needed.
 * There are many different "git clients" (software programs), most of which
   are interchangable, many of which are open source.
 
---
-
-* .blue[**GitHub**] is a website for hosting public or private git repositories
-  so you can **share** them with others.
-
-* GitHub includes extra features (website hosting, project management, wiki, issue tracking, etc)
-
---
-
-* .red[**TFS**] is an Azure-based platform which provides many Github-like features,
-  suitable for internal Bank use
-
 ???
 
 * **git** is software installed on your computer
@@ -184,3 +172,15 @@ Work happens in independent, parallel "branches" which "merge" when needed.
   Github and provides some of the same features. The big difference between TFS and Github
   for us is that TFS is provided through ITS, is available only to Bank staff (not the public)
   and can therefore be used for "official use."
+
+--
+
+* .blue[**GitHub**] is a website for hosting public or private git repositories
+  so you can **share** them with others.
+
+* GitHub includes extra features (website hosting, project management, wiki, issue tracking, etc)
+
+--
+
+* .red[**TFS**] is an Azure-based platform which provides many Github-like features,
+  suitable for internal Bank use

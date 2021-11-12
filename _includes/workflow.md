@@ -14,17 +14,6 @@
 ![global config-user settings](assets/images/config-user.png)
 ]
 
---
-
-.col-left[
-* Type:
-
-````
-git config --global user.name "Your name"
-git config --global user.email "your_address@worldbank.org"
-```` 
-]
-
 ???
 
 * Okay, so let's get started. For the purposes of this tutorial
@@ -52,6 +41,18 @@ git config --global user.email "your_address@worldbank.org"
  * You can also set your name/email at the repository level
    by leaving out the `--global` option if you just want to change settings
    for one project.
+
+--
+
+.col-left[
+* Type:
+
+````
+git config --global user.name "Your name"
+git config --global user.email "your_address@worldbank.org"
+```` 
+]
+
 
 ---
 
