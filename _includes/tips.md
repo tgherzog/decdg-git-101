@@ -3,8 +3,11 @@
 
 # Tips and best practices
 
-* Helpful configuration options
-* Provide meaningful commit messages
+* Helpful configuration options (esp.for command line users)
+* Provide meaningful commit messages (examples?)
 * Don't commit "working" files that others don't need
-* Use .gitignore
+  * venv and virtual environments
+  * your own private notes
+  * libraries
+* Use .gitignore to prevent unwanted commits (examples)
 
